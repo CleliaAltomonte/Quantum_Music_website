@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <style>
+    nav { background: #333; padding: 10px; }
+    nav a { color: white; margin-right: 15px; text-decoration: none; }
+    body { font-family: sans-serif; padding: 20px; }
+    .gallery-item { margin-bottom: 40px; }
+    img { width: 300px; display: block; margin-bottom: 10px; }
+  </style>
+
+  <!-- MIDI Player scripts -->
+  <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="theory.html">Theory</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <h2>Home</h2>
+
+  <!-- Home Section -->
+<section id="home">
+  <h1>Welcome to Quantum Music</h1>
+  <p style="line-height: 1.8;">Explore quantum mechanics through music by mapping qubits to musical notes and quantum circuits to music scores. <br>
+  Go to the Theory section for a gentle introduction into quantum mechanics and its analogy to music.  <br>
+  In the Gallery section you will find some examples. The first three scores are very simple and meant to exemplify important quantum mechanical properties such as SUPERPOSITION and ENTANGLEMENT. <br>
+  If you would like to experiment with the sound of quantum for yourself, go to
+<a href="https://algassert.com/quirk" target="_blank" rel="noopener noreferrer">
+    Open Quirk Quantum Circuit Simulator
+  </a> to create your own quantum circuit, or create it in any other way (using qiskit for example). Add barriers where you want the musical notes to be recorded. Then use this code <a href="https://github.com/CleliaAltomonte/Quantum_Music_code" rel="noopener noreferrer">Quantum Music</a> to output your music. 
+</section>
+
+</body>
+</html>
+

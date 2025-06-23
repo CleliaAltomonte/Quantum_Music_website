@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <style>
+    nav { background: #333; padding: 10px; }
+    nav a { color: white; margin-right: 15px; text-decoration: none; }
+    body { font-family: sans-serif; padding: 20px; }
+    .gallery-item { margin-bottom: 40px; }
+    img { width: 300px; display: block; margin-bottom: 10px; }
+  </style>
+
+  <!-- MIDI Player scripts -->
+  <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="theory.html">Theory</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <h2>Gallery</h2>
+
+    <p>1 qubit, example of superposition:</p>
+
+    <div class="gallery-item">
+      <img src="simplest.png" alt="1 qubit, example of superposition">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/simplest_quantum_composition.mid"
+        sound-font
+        visualizer="#viz1">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz1"></midi-visualizer>
+    </div>
+
+    <p>2 qubits, example of superposition:</p>
+
+    <div class="gallery-item">
+      <img src="superposition_simple.png" alt="2 qubits, example of superposition">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_A.mid"
+        sound-font
+        visualizer="#viz2">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz2"></midi-visualizer>
+    </div>
+
+    <p>Example of entanglement: same as above, but first entangle the two qubits</p>
+
+    <div class="gallery-item">
+      <img src="entanglement.png" alt="Example of entanglement: same as above, but first entangle the two qubits">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_B.mid"
+        sound-font
+        visualizer="#viz3">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz3"></midi-visualizer>
+    </div>
+
+    <p>A more complicated composition</p>
+
+    <div class="gallery-item">
+      <img src="passacaglia copia.png" alt="A more complicated composition" title="A more complicated composition">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_C.mid"
+        sound-font
+        visualizer="#viz4">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz4"></midi-visualizer>
+    </div>
+
+    <p>Longer, more complex music scores</p>
+
+    <img src="long_circuit.png" alt="More complicated circuits look like this">
+
+    <p>Composition 1</p>
+
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_1.mid"
+        sound-font
+        visualizer="#viz5">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz5"></midi-visualizer>
+    </div>
+
+
+    <p>Composition 2</p>
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_2.mid"
+        sound-font
+        visualizer="#viz6">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz6"></midi-visualizer>
+    </div>
+
+    <p>Composition 3</p>
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_3.mid"
+        sound-font
+        visualizer="#viz7">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz7"></midi-visualizer>
+    </div>
+
+    <p>Composition 4</p>
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_5.mid"
+        sound-font
+        visualizer="#viz9">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz9"></midi-visualizer>
+    </div>
+
+    <p>Composition 5</p>
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_6.mid"
+        sound-font
+        visualizer="#viz10">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz10"></midi-visualizer>
+    </div>
+
+    <p>Composition 6</p>
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_7.mid"
+        sound-font
+        visualizer="#viz11">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz11"></midi-visualizer>
+    </div>
+
+    <p>Composition 7</p>
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_8.mid"
+        sound-font
+        visualizer="#viz12">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz12"></midi-visualizer>
+    </div>
+
+    <p>Composition 8</p>
+    <div class="gallery-item">
+      <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/quantum_composition_9.mid"
+        sound-font
+        visualizer="#viz13">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz13"></midi-visualizer>
+    </div>
+
+  </section>
+
+</body>
+</html>
