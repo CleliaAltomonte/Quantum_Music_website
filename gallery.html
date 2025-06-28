@@ -24,7 +24,7 @@
 
   <h2>Gallery</h2>
 
-  <h3>Basics: Superposition and Entanglement</h3>
+  <h3>1. Basics: Superposition and Entanglement</h3>
   
     <p>For the tracks in this section, we used MAPPING 1 (angles &theta; and &phi; are mapped to notes of different octaves, all notes have the same duration).<p>
     <p>1 qubit, example of superposition:</p>
@@ -65,7 +65,7 @@
       <midi-visualizer type="piano-roll" id="viz3"></midi-visualizer>
     </div>
 
-  <h3>The sound of quantum algorithms</h3>
+  <h3>2. The sound of quantum algorithms</h3>
   <p>In this section, we translate to sound some known quantum algorithms, using MAPPING 2 (angles &theta; and &phi; are mapped to notes of different octaves, in general using the chromatic scale. Notes duration is also set by &theta;)</p>
 
   <p>Quantum Fourier Transform</p>
@@ -85,9 +85,9 @@
     <midi-player
         src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/grover_music.mid"
         sound-font
-        visualizer="#viz4">
+        visualizer="#viz5">
       </midi-player>
-      <midi-visualizer type="piano-roll" id="viz4"></midi-visualizer>
+      <midi-visualizer type="piano-roll" id="viz5"></midi-visualizer>
     </div>
 
   <p>Quantum walks:<br>
@@ -97,42 +97,49 @@
     <midi-player
         src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/qw_random_chr_lower.mid"
         sound-font
-        visualizer="#viz4">
+        visualizer="#viz6">
       </midi-player>
-      <midi-visualizer type="piano-roll" id="viz4"></midi-visualizer>
+      <midi-visualizer type="piano-roll" id="viz6"></midi-visualizer>
     </div>
 
   <p>Quantum walks: Initialise gaussian initial state, map to chromatic scale with small offsets between subsequent qubits. </p>
   <div class="gallery-item">
-    <img src="qw_gaussian_chr_lower.png" alt="example of quantum walk with advection-collision operators">
     <midi-player
         src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/qw_gaussian_chr_lower.mid"
         sound-font
-        visualizer="#viz4">
+        visualizer="#viz7">
       </midi-player>
-      <midi-visualizer type="piano-roll" id="viz4"></midi-visualizer>
+      <midi-visualizer type="piano-roll" id="viz7"></midi-visualizer>
     </div>
 
   <p>Initialise random initial state, map to pentatonic scale with small offsets between subsequent qubits. </p>
   <div class="gallery-item">
-    <img src="qw_gaussian_chr_lower.png" alt="example of quantum walk with advection-collision operators">
     <midi-player
         src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/qw_random_penta_lower.mid"
         sound-font
-        visualizer="#viz4">
+        visualizer="#viz8">
       </midi-player>
-      <midi-visualizer type="piano-roll" id="viz4"></midi-visualizer>
+      <midi-visualizer type="piano-roll" id="viz8"></midi-visualizer>
     </div>
 
   <p>Initialise gaussian initial state, map to pentatonic scale with small offsets between subsequent qubits. </p>
   <div class="gallery-item">
-    <img src="qw_gaussian_chr_lower.png" alt="example of quantum walk with advection-collision operators">
     <midi-player
         src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/qw_gaussian_penta_lower.mid"
         sound-font
-        visualizer="#viz4">
+        visualizer="#viz9">
       </midi-player>
-      <midi-visualizer type="piano-roll" id="viz4"></midi-visualizer>
+      <midi-visualizer type="piano-roll" id="viz9"></midi-visualizer>
+    </div>
+
+  <p> Here we use MAPPING 3 (angle &phi; mapped to pitch, notes duration is set by &theta;). Initialise gaussian initial state, map to chromatic scale with small offsets between subsequent qubits. </p>
+  <div class="gallery-item">
+    <midi-player
+        src="https://raw.githubusercontent.com/CleliaAltomonte/Music/main/qw_random_chromatic_volume.mid"
+        sound-font
+        visualizer="#viz9">
+      </midi-player>
+      <midi-visualizer type="piano-roll" id="viz9"></midi-visualizer>
     </div>
   
 
